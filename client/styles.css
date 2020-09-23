@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+}
+
+header > h1 {
+    margin: 0;
+}
+
+body {
+    width: 61.8%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.mew-form, .loading {
+    width: 61.8vw;
+    min-width: 430px;
+    margin: 20px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.mews {
+    border: 1px solid lightgrey;
+    width: 61.8vw;
+    min-width: 430px;
+    margin-left: 20px;
+}
+
+.mew {
+    margin: 20px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.mew > span {
+    font-size: x-small;
+    padding-left: 10px;
+}
+
+.mew > p {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.mew > small {
+    color: grey;
+    padding: 0 20px;
+}
