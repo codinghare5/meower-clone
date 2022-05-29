@@ -5,7 +5,7 @@ const Filter = require('bad-words');
 
 const app = express();
 // db config
-const db = monk('mongodb+srv://admin:rq9sk9xsOTi8S881@cluster0.2eiin.mongodb.net/mews?retryWrites=true&w=majority');
+const db = monk('mongodb+srv://admin:{your-key}.mongodb.net/mews?retryWrites=true&w=majority');
 const mews = db.get('mews');
 const filter = new Filter();
 
